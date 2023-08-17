@@ -20,7 +20,7 @@ export default function ProductsScreen() {
     const fetchData = async () => {
       try {
         const response = await axios.get(
-          "http://localhost:8000/products"
+          'https://xzk6zy-8000.csb.app' ||'http://localhost:8000'
         );
         if (response.status === 200) {
           const data = response.data;
