@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const apiService = axios.create({
-  baseURL: 'http://localhost:8000' || 'https://xzk6zy-8000.csb.app',
+  baseURL: 'https://xzk6zy-8000.csb.app' ||'http://localhost:8000',
 });
 
 export const fetchProducts = async (searchQuery) => { // Agrega el parámetro searchQuery
