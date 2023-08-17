@@ -63,16 +63,16 @@ const Tarjeta = ({ cardId, linkto }) => {
           <div className="containerTarjeta" key={product.id}>
             <img className="imgTarjeta" src={product.image_url} alt="Imagentarjeta" />
             <div className="botonesTarjeta">
-              <button className="prodName">{product.name}</button>
+              <h2 className="prodName">{product.name}</h2>
               <div className="botonesTarjeta2">
-                <button className="price">{product.price}</button>
-                <Corazon
+              <button className="price">{product.price + '€'}</button>               
+               <Corazon
                   isLiked={product.isFavorite}
                   onClick={() => handleLikeClick(product.id)} // Pasar el id del producto
                 />
               </div>
             </div>
-            <Link style={{ textDecoration: "none", color: "white" }} to={`/products/${product._id}`}>
+            <Link className='btn-detalle' style={{ textDecoration: "none", color: "white" }} to={`/products/${product._id}`}>
               Ver Detalles
             </Link>
           </div>

@@ -1,4 +1,3 @@
-import React from 'react'
 import './Banner.css'
 
 
@@ -8,7 +7,7 @@ const Banner = () =>  {
         <div  className="banner">
         
         <div className='imgBanner'>
-        <p className='textBanner'>TU TIENDA ECOLÓGICA</p>
+        <h3 className='textBanner'>TU TIENDA ECOLÓGICA</h3>
         </div>
       </div>
     </div>

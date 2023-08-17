@@ -1,23 +1,23 @@
+
 .flex-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 10px;
-  margin: 20px;
+  gap: 20px;
 }
 
 .containerTarjeta {
-  flex-basis: calc(50% - 15px);
-  max-width: 200px;
-  width: 100%;
-  height: 30vh;
-  border-radius: 10px;
-  background-color: rgba(63, 151, 151, 0.6);
-  display: flex;
-  justify-content: space-around;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 20px;
+  flex-basis: calc(100% - 100px);
+    max-width: 413px;
+    padding: 1rem 2rem;
+    width: 100%;
+    border-radius: 10px;
+    background-color: rgba(63, 151, 151, 0.6);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
 
@@ -33,6 +33,8 @@
   display: flex;
   justify-content: space-around;
   flex-direction: column;
+  width: 80%;
+  align-items: center;
 }
 
 .prodName {
@@ -42,6 +44,8 @@
   border: none;
   margin-top: 1vh;
   margin-left: 1vh;
+  text-align: center;
+  font-weight: 700;
 }
 
 .botonesTarjeta2 {
@@ -61,35 +65,21 @@
   font-size: 3vh;
 }
 
-@media (max-width: 600px) {
-  .grid-container {
-    justify-content: center;
-  }
-
-  .containerTarjeta {
-    flex-basis: calc(50% - 15px);
-  }
+.btn-detalle{
+  width: 250px;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  background-color: rgb(51, 188, 212);
+  border-radius: 25px;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  
 }
-
-@media (min-width: 601px) and (max-width: 900px) {
-  .grid-container {
-    justify-content: center;
-  }
-
-  .containerTarjeta {
-    flex-basis: calc(33.33% - 15px);
-  }
-}
-
-@media (min-width: 901px) {
-  .grid-container {
-    justify-content: center;
-    max-height: 120vh; 
-  }
-
-  .containerTarjeta {
-    flex-basis: calc(25% - 15px);
-  }
+.btn-detalle:hover{
+  background-color: rgb(40, 146, 165);
 }
 
 .search-container {
@@ -107,3 +97,4 @@
   border-radius: 5px;
   flex: 1;
 }
+ 

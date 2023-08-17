@@ -6,7 +6,7 @@ import '../../components/chat/Chat.css';
 
 import { FaComments } from 'react-icons/fa'; 
 
-// Modal.setAppElement('#root');
+Modal.setAppElement('#root');
 
 const Chat = ({ firebaseConfig }) => {
   const [messages, setMessages] = useState([]);
@@ -134,7 +134,7 @@ const Chat = ({ firebaseConfig }) => {
 </Modal>
 
 
-      <button onClick={handleChatButtonClick} className="chat-button" data-testid="chat-button">
+      <button onClick={handleChatButtonClick} className="chat-button">
       <FaComments size={30} />
       </button>
     </div>
