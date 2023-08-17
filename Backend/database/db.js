@@ -1,5 +1,8 @@
 import mongoose from 'mongoose'
-const url = 'mongodb://localhost:27017/ecofind'
+import dotenv from 'dotenv'
+dotenv.config()
+
+const url = process.env.URI || 'mongodb://localhost:27017/ecofind' 
 mongoose.connect(url)
 
  const db = mongoose.connection
