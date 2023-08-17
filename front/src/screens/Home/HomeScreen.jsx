@@ -4,7 +4,7 @@ import Tarjeta from '../../components/Tarjeta/Tarjeta';
 import Banner from '../../components/Banner/Banner'; // Agrega la importación de Banner si es necesario
 
 // IMAGENES
-import img1 from '../../assets/images/Aceiterosa.jpg'
+import img1 from '../../assets/images/aceiterosa.jpg'
 
 import Chat from '../../components/chat/Chat'
 
