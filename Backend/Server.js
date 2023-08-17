@@ -1,7 +1,7 @@
 const { MongoClient } = require('mongodb');
 
 // Aquí es donde pondrías tu cadena de conexión a MongoDB Atlas.
-const uri = "mongodb+srv://<username>:<password>@cluster0.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+const uri = "mongodb+srv://angelagm:Juajua123@cluster0.eqybogc.mongodb.net/ecofind";
 
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 
