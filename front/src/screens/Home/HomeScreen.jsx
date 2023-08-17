@@ -4,7 +4,7 @@ import Tarjeta from '../../components/Tarjeta/Tarjeta';
 import Banner from '../../components/Banner/Banner'; // Agrega la importación de Banner si es necesario
 
 // IMAGENES
-import img1 from '../../assets/images/aceiterosa.jpg'
+// import img1 from '../../assets/images/aceiterosa.jpg'
 
 import Chat from '../../components/chat/Chat'
 
@@ -22,7 +22,7 @@ const HomeScreen = ({ handleLike,  }) => {
         {/* Pasa las propiedades de handleLike y linkto correctamente */}
         <Tarjeta linkto="/products/producto-1" handleLike={handleLike} 
         
-        imgCard={img1}
+        // imgCard={img1}
         price={6.10 + ' €'}
         productName={'Aceite Rosa'}
         
